@@ -7,7 +7,10 @@ return {
     end,
   },
   {
-    'stevearc/qf_helper.nvim',
+    'stevearc/quicker.nvim',
+    event = 'FileType qf',
+    ---@module "quicker"
+    ---@type quicker.SetupOptions
     opts = {},
   },
 }

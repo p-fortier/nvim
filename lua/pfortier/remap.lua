@@ -1,1 +1,1 @@
-vim.keymap.set('n', '<leader>pv', ':q<CR>')
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
